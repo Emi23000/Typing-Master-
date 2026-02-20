@@ -1,6 +1,6 @@
 print ("Random Country Word Game")
-print ("Lets start with the 1st round")
-
+print ("The rules is that you have to type 15 words and then I will tell you how accurate you were.")
+print ("Only one try per word, please think first, respond then")
 incorrect_word = 0 
 correct_word = 0 
 
