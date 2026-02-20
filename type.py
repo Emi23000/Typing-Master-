@@ -38,15 +38,20 @@ words = [
 
 random.shuffle(words) 
 
-word_length = 15
+word_length = 21
 
-#esto es para poner que si es correcto pues te da punto y si no lo quita y dice incorrect
-if user_input == word_length:
-    print("Correct!")
-    correct_word += 1
-else:
-    print("Incorrect bro!!! Choose wisely.")
-    incorrect_word += 1
+#esto me confundiooo muchooooo pero logre llegarle
+for country in words:
+
+    answer = input("Type this country: " + country + " : ")
+
+    if answer == country:
+        print("Correct!")
+        correct_word = correct_word + 1
+    else:
+        print("Incorrect! Try to be more accurate")
+        incorrect_word = incorrect_word + 1
+
 
 # el calculo de los puntos de cuanto saco bien y mal en porcentaje
 accuracy = (correct_word / 15) * 100
@@ -62,3 +67,8 @@ print("Results:", accuracy, "%")
 #https://stackoverflow.com/questions/18834636/random-word-generator-python
 #https://docs.flet.dev/
 #https://www.w3schools.com/python/module_random.asp 
+#https://www.youtube.com/watch?v=piJc18hcH0Y
+#https://www.youtube.com/watch?v=KzqSDvzOFNA
+#https://www.youtube.com/watch?v=5W8cy2tYsAM&pp=ygUcd3JpdGUgcmFuZG9tIHdvcmRzIGluIHB5dGhvbtIHCQmiCgGHKiGM7w%3D%3D
+#https://chatgpt.com/share/6997bb96-53e0-8008-bee8-8294ee25cabe
+
