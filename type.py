@@ -38,8 +38,10 @@ if user_input == word:
     print("Correct!")
     correct_word += 1
 else:
-    print("Incorrect! Try again. Choose wisely.")
+    print("Incorrect bro!!! Choose wisely.")
     incorrect_word += 1
+
+# el calculo de los puntos de cuanto saco bien y mal en porcentaje
 accuracy = (correct_word / len(words)) * 100
 
 #El print pone el orden por los comas entonces mientras le agregues el coma se pondra en la misma linea
