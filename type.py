@@ -1,3 +1,4 @@
+import random
 # aqui empieza el juego en donde se explica los pasos a seguir
 
 print ("Random Country Word Game")
@@ -7,7 +8,7 @@ incorrect_word = 0
 correct_word = 0 
 
 #lista de paises random
-list = [
+words = [
     "Colombia",
     "Mexico",
     "Guatemala",
@@ -33,7 +34,7 @@ list = [
 
 #la lista que cree arriba de los paises entonces le pone shuffle randomly
 
-randomOrder = random.shuffle(list) 
+random.shuffle(words) 
 
 #esto es para poner que si es correcto pues te da punto y si no lo quita y dice incorrect
 if user_input == word:
