@@ -3,6 +3,8 @@ print ("Lets start with the 1st round")
 
 incorrect_word = 0 
 correct_word = 0 
+
+#lista de paises random
 list = [
     "Colombia",
     "Mexico",
