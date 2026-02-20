@@ -4,6 +4,8 @@ import random
 print ("Random Country Word Game")
 print ("The rules is that you have to type 15 words and then I will tell you how accurate you were.")
 print ("Only one try per word, please think first, respond then")
+
+#donde empieza en 0 tipo contador 
 incorrect_word = 0 
 correct_word = 0 
 
