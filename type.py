@@ -38,8 +38,10 @@ words = [
 
 random.shuffle(words) 
 
+word_length = 15
+
 #esto es para poner que si es correcto pues te da punto y si no lo quita y dice incorrect
-if user_input == word:
+if user_input == word_length:
     print("Correct!")
     correct_word += 1
 else:
@@ -47,7 +49,7 @@ else:
     incorrect_word += 1
 
 # el calculo de los puntos de cuanto saco bien y mal en porcentaje
-accuracy = (correct_word / len(words)) * 100
+accuracy = (correct_word / 15) * 100
 
 #El print pone el orden por los comas entonces mientras le agregues el coma se pondra en la misma linea
 
@@ -55,3 +57,8 @@ print("Game Summary")
 print("Total correct words:", correct_word)
 print("Total incorrect words:", incorrect_word)
 print("Results:", accuracy, "%")
+
+
+#https://stackoverflow.com/questions/18834636/random-word-generator-python
+#https://docs.flet.dev/
+#https://www.w3schools.com/python/module_random.asp 
