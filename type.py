@@ -54,7 +54,7 @@ for country in words:
 
 
 # el calculo de los puntos de cuanto saco bien y mal en porcentaje
-accuracy = (correct_word / 15) * 100
+accuracy = (correct_word / 21) * 100
 
 #El print pone el orden por los comas entonces mientras le agregues el coma se pondra en la misma linea
 
